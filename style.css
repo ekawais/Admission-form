@@ -1,0 +1,45 @@
+body {
+    background-color: #d9d9d9;
+    padding: 3%;
+}
+
+label {
+    font-weight: bolder;
+
+}
+
+.h-logo .logo {
+    border-radius: 50%;
+    width: 10%;
+    float: left;
+}
+
+.h-header .h-heading,
+h1,
+h2 {
+    text-align: center;
+}
+
+.cc-activities table {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.s-button .button {
+    padding: 10px;
+    float: right;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 100px;
+    font-size: medium;
+    font-weight: bold;
+    animation: 300ms all ease-in-out;
+}
+.button:hover{
+    background-color: red;
+    
+    transform: scale(1.10);
+}

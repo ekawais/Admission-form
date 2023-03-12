@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="h-logo">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/COMSATS_new_logo.jpg"
+                alt="Comsats logo">
+        </div>
+        <div class="h-heading">
+            <h1> Comsats University Islamabad, Wah Campus</h1>
+            <h2>Admission Form</h2>
+        </div>
+    </div>
+    <br><br>
+    <hr><br>
+    <div class="per_info">
+
+        <fieldset>
+            <legend>
+                <h2>Personal Information</h2>
+            </legend>
+            <label for="Name"> Name:<input type="text" placeholder="Full Name " id="name"
+                    style="margin-left:10% ;"></label><br><br>
+            <label for="Father-Name">Father Name:<input type="text" placeholder="Full Name " id="father name"
+                    style="margin-left:7% ;"></label><br><br>
+            <label for="DOB">DOB:<input type="date" id="name" style="margin-left:10.5% ;"></label><br><br>
+            <label for="Gender"> Gender:</label>
+            <select name="Gender" id="gen" style="margin-left:9% ; ">
+                <option value="Choose">Choose Gender</option>
+                <option value="male">male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+            <label for="Nationality">Nationality:<input type="text" id="text" placeholder="Pakistan etc"
+                    style="margin-left: 7.5%;"></label><br><br>
+            <label for="CNIC">CNIC:<input type="text" placeholder="XXXXX-XXXXXX-X" id="cnic" maxlength="15"
+                    style="margin-left:9.5% ;"></label><br><br>
+            <label for="mob_number">Mobile: <input type="text" id="mob_number" style="margin-left: 9%;"
+                    placeholder="XXXX-XXXXXXXX" maxlength="12"></label><br><br>
+            <label for="Addres">Address: <input type="text" id="Addres" style="margin-left: 8%;" placeholder=""></label>
+        </fieldset>
+    </div>
+    <br><br>
+    <hr>
+    <!-- Qualification -->
+    <div class="Qualification">
+        <fieldset>
+            <legend>
+                <h2>Qualification</h2>
+            </legend>
+            <label for="matric">Matric:<input type="text" id="matric"
+                    placeholder="Include(passing year,Board,school name,marks)"
+                    style="margin-left: 7.5%;"></label><br><br>
+            <label for="Intermediate">Intermediate:<input type="Intermediate" id="Intermediate"
+                    placeholder="Include(passing year,school name,marks)" style="margin-left: 5%;"> </label>
+            <label for="Board">Board: <input type="radio" name="board" id="fbise" value="fbise"></label>
+            <label for="fbise">fbise</label>
+            <input type="radio" name="board" id="kpk" value="kpk"><label for="kpk">kpk</label>
+            <input type="radio" name="board" id="punjab" value="punjab"><label for="punjab">punjab</label>
+        </fieldset>
+    </div>
+    <br><br>
+    <hr>
+    <!-- Co Curriculam Activities -->
+    <div class="cc-activities">
+        <fieldset>
+            <legend>
+                <h2>Co Curriculam Activities</h2>
+            </legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hobbies</th>
+                        <th>Skill</th>
+                        <th>games</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="text"></td>
+                        <td><input type="text" id="text"></td>
+                        <td>
+                            <input type="text" id="text">
+                        </td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="text"></td>
+                        <td><input type="text" id="text"></td>
+                        <td><input type="text" id="text"></td>
+
+
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="text"></td>
+                        <td><input type="text" id="text"></td>
+                        <td><input type="text" id="text"></td>
+
+
+                    </tr>
+                </tbody>
+
+            </table>
+        </fieldset><br>
+    </div>
+    <!-- Submit Button -->
+    <div class="s-button">
+        <input class="button" type="Button" value="Submit">
+    </div>
+</body>
+
+</html>
